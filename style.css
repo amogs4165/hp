@@ -9,6 +9,9 @@ body{
     font-family: HP Simplified;
     src: url('http://dl.dropboxusercontent.com/s/dau4s6y033jkg4y/HPSimplified_Lt.ttf');
 }
+.header{
+    background-color: #ffffff;
+}
 .fpadding{
     padding-left: 5rem;
 }
@@ -91,4 +94,8 @@ a:hover{
 }
 .bp{
     padding-left: 2%;
+}
+.navEdit{
+    display: flex;
+    justify-content: space-evenly;
 }
