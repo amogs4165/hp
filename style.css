@@ -15,12 +15,17 @@ body{
 .head2{
     
     background-color: #165dba;
-    height: 3.5rem;
+    height: 2rem;
     width: 100%;
+    
+}
+a:hover{
+    color: #5a5a5a;
 }
 .afoot{
     color: white;
     font-size: 20px;
+    text-decoration: none;
 
 }
 .img{
@@ -65,7 +70,25 @@ body{
     background-size: 16px;  
     }
 .footer{
-    background-color: black;
-    padding-left: 25rem;
-    padding-right: 25rem;
+    background-color: #5a5a5a;
+    padding-left: 25rem !important;
+    padding-right: 25rem !important;
+}
+.hfont{
+    color: #ffffff;
+    font-size: .7rem;
+    list-style-type: none;
+}
+.hfont1{
+    color: #ffffff;
+    font-size: .7rem;
+    list-style-type: none;
+    font-weight: bold;
+}
+.border-right{
+   
+    border-right: #ffffff 1px solid;
+}
+.bp{
+    padding-left: 2%;
 }
